@@ -58,10 +58,17 @@ db={
     "tarun":"0613"
 }
 
-if pas in db[user]:
+if
+pas in db[user]:
     print("Right credentials")
 else:
     print("Wrong credentials")
+
+
+
+
+#task
+1. check count of vowels and consonants in para
 
 
 
