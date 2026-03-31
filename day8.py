@@ -37,7 +37,7 @@ print(dict(a))
 '''
 
 #some_programs
-a="madam"
+a="madam
 e=""
 for i in a:
     e=i+e
