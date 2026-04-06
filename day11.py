@@ -33,7 +33,6 @@ print(lower)'''
 
 
 '''
-string1=input()
 upper=[]
 lower=[]
 for i in string1:
