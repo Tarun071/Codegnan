@@ -1,14 +1,3 @@
-
-k=n
-sum=1
-for i in range(1,n):
-    if (n%i==0):
-        sum=sum*i
-if sum==k:
-    print("perfect square")
-else:
-    print("not a perfetct square")
-
 #sum of evens and odd in list
 '''li=list(map(int,input().split()))
 even=0
@@ -82,3 +71,15 @@ if sum==n:
     print(n,"is a perfect number")
 else:
     print(n,"is not a perfect number")
+
+
+
+
+
+
+
+
+
+
+        
+        
