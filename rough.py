@@ -1,4 +1,4 @@
-a=int(input())
+'''a=int(input())
 b=int(input())
 c=int(input())
 if a>b and a>c:
@@ -7,3 +7,10 @@ elif b>a and b>c:
     print(b,"is greatest number")
 elif c>a and c>b:
     print(c,"is greatest number")
+'''
+w=input()
+count=1
+for i in w:
+    if i==" ":
+        count+=1
+print(count)
