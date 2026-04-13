@@ -1,3 +1,4 @@
+imort Time
 #Generators
 '''
 --> This is a special type of function that return an ITTERATION which one at a time
@@ -34,3 +35,4 @@ def numbers(n):
 n=numbers(100)
 for i in n:
  print(i)
+ time.sleep(2)

@@ -25,7 +25,7 @@ types of methods or bulit in funcions used in list :
 4- pop()   - uses index to remove the element l.pop(0).
 
 
-l=[1,2,3,4,5]
+l=[1,2,3,"tarun",5]
 l2=[7,8,9,10]
 l.append(6)
 print(l)
@@ -36,6 +36,8 @@ print(l)
 name="tarun"
 l.extend(name)
 print(l)
+l2.sort()
+print(l2)
 
 '''
 # print 100 prime numbers
