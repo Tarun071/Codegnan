@@ -1,4 +1,4 @@
-imort Time
+import time
 #Generators
 '''
 --> This is a special type of function that return an ITTERATION which one at a time
@@ -28,7 +28,7 @@ def square(n):
 for val in square(5):# yeild value must be stored in the variable to use it or print it
     print(val)
 '''
-
+'''
 def numbers(n):
     for i in range(n+1):
         yield i
@@ -36,3 +36,12 @@ n=numbers(100)
 for i in n:
  print(i)
  time.sleep(2)
+for i in range(4):
+    for j in range(0,i+1):
+        print("*",end="")
+    print()
+'''
+
+n=5
+for i in range(1,n+1):
+    for i in range(0,

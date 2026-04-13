@@ -12,6 +12,14 @@ replace() – replaces a substring with another
 split() – splits string into list
 isdigit() – checks if all characters are digits
 isalpha() – checks if all characters are alphabets
+startswith()
+endswith()
+capitalize()
+title() - Title formate "Python Programming"
+"".join(variable_name) - joins string with characters plav=ced in -->("")
+find() - find value and returs its index values
+
+
 '''
 '''
 
@@ -33,7 +41,7 @@ print(name.isalpha())
 
 
 
-
+ 
 
 # k=int(input())
 any="Python programming language"
