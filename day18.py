@@ -43,6 +43,7 @@ print(math.sqrt(16))
 import random as rd
 count=1
 k=rd.randint(1,10)
+print(k)
 while count<4:
     guess=int(input(f"Guess the word (you have {4-count} chances) : "))
     if guess==k:
