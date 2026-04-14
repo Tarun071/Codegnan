@@ -23,6 +23,13 @@ types of methods or bulit in funcions used in list :
 2- extend() - it also adds into list but when it comes to add the another list it jus adds elements int the list not the whole list,even the strigs will be seapated as characters
 3- remove()- uses element to delete ex: [23,23,45,32,90] l.remove(90).
 4- pop()   - uses index to remove the element l.pop(0).
+5- sort()
+6-index()
+7-clear()
+8-insert()
+9.reverse()
+10-count()
+11-len()
 
 
 l=[1,2,3,"tarun",5]
@@ -39,7 +46,9 @@ print(l)
 l2.sort()
 print(l2)
 
-'''
+
+
+
 # print 100 prime numbers
 
 def isPrime(n):
@@ -58,9 +67,14 @@ while(count<101):
     n+=1    
     
             
+'''
 
 
 
+for i in range(0,5):
+    for j in range(0,i):
+        print(i)
+    print()
 
 
 
