@@ -36,15 +36,28 @@ l=[1,2,3,"tarun",5]
 l2=[7,8,9,10]
 l.append(6)
 print(l)
+
 l.extend(l2)
 print(l)
+
 l.append(l2)
 print(l)
+
 name="tarun"
 l.extend(name)
 print(l)
+
 l2.sort()
 print(l2)
+
+l.pop(0)
+print(l)
+
+l.index(2)
+print(l)
+
+l.reverse()
+
 
 
 

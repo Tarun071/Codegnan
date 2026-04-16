@@ -1,3 +1,4 @@
+'''
 a="Python is a programming language"
 c=0
 for i in a:
@@ -28,7 +29,7 @@ def add(My_name):
     print(My_name)
 add(My_name="Dimple")
 add(My_name="Avanthi")
-
+##############################################
 #prime number
 def isprime(n,count):
     for i in range(1,n):
@@ -43,7 +44,7 @@ count=0
 isprime(n,count)
 isprime(23,0)
 
-
+####################################
 def any(num,num_3,num_2):
     print(f"num = {num}, num_2={num_2}, num_3={num_3}")
 any(num_2=7,num=0,num_3=90)
@@ -59,3 +60,4 @@ name(1,2,3)
 #types of error
 1.Syntax error
 2.Indentation error
+'''

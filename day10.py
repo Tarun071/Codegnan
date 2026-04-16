@@ -1,4 +1,4 @@
-
+'''
 k=n
 sum=1
 for i in range(1,n):
@@ -10,7 +10,7 @@ else:
     print("not a perfetct square")
 
 #sum of evens and odd in list
-'''li=list(map(int,input().split()))
+li=list(map(int,input().split()))
 even=0
 odd=0
 for i in li:
@@ -68,7 +68,7 @@ if len(ICIC_user_pin)==4:
     else:
         print("You have entered invalid pin")
 else:
-    print("Plz enter 4 digit pin")'''
+    print("Plz enter 4 digit pin")
 
 
 
@@ -82,3 +82,4 @@ if sum==n:
     print(n,"is a perfect number")
 else:
     print(n,"is not a perfect number")
+'''

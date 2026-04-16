@@ -49,7 +49,9 @@ mul(a,b)
 print(k)
 
 
-
-
+if sub(a,b)>5:
+    print("true")
+else:
+    print("false")
 
 
