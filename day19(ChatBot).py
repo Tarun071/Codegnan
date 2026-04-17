@@ -22,10 +22,10 @@ audio = pyttsx3.init()
 def task_speaking_test(text):
     audio.say(text)
 
-name = "Dimple"
-branch = "ECE"
-college = " Miracle educational society group of institutions "
-skills = "Python, C, Basics of VLSI"
+name = "Tarun"
+branch = "CSD"
+college = " Raghu Engineering College  "
+skills = "Python, C, FastAPI
 goal = "I want to become a Software Engineer"
  
 
