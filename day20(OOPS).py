@@ -36,20 +36,21 @@ print(car1.brand)
 '''
 
 
-class car:
-    wheels=4
-    def __init__(self,make,model,year):
-        self.make=make
-        self.model=model
-        self.year=year
-        self.mileage=20
-    def drive(self,miles):
-        self.mileage+=miles
-        return f"Drove  {miles} Miles. Total: {self.mileage}"
-    def info(self):
-        return f"{self.make} {self.model} {self.year}"
-car1=car("BMW","Mustang","2008")
-car2=car("Toyoto","Camry","2023")
-print(car1.info())
-print(car2.info())
-print(car2.drive(10))
+# class car:
+#     wheels=4
+#     def __init__(self,make,model,year):
+#         self.make=make
+#         self.model=model
+#         self.year=year
+#         self.mileage=20
+#     def drive(self,miles):
+#         self.mileage+=miles
+#         return f"Drove  {miles} Miles. Total: {self.mileage}"
+#     def info(self):
+#         return f"{self.make} {self.model} {self.year}"
+# car1=car("BMW","Mustang","2008")
+# car2=car("Toyoto","Camry","2023")
+# print(car1.info())
+# print(car2.info())
+# print(car2.drive(10))
+
