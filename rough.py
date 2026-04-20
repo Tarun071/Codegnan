@@ -106,3 +106,64 @@ print("Final Amount =", A)
 print("Compound Interest =", CI)
 
 '''
+a=[1,2,-2,-3,1,-4]
+s=0
+for i in range(0,len(a)):
+    if a[i]<0:
+        a[i],a[s]=a[s],a[i]
+        s+=1    
+print(a)
+
+
+#Convert number of days into years, weeks, and days
+'''
+
+days = int(input("Enter number of days: "))
+
+years = days // 365
+remaining_days = days % 365
+
+weeks = remaining_days // 7
+days_left = remaining_days % 7
+
+print("Years:", years)
+print("Weeks:", weeks)
+print("Days:", days_left)
+'''
+
+
+
+#Find the sum of all positive numbers in a list
+'''
+numbers = list(map(int, input("Enter numbers separated by space: ").split()))
+
+sum_positive = 0
+
+for num in numbers:
+    if num > 0:
+        sum_positive += num
+
+print("Sum of positive numbers:", sum_positive)
+'''
+
+#Count number of words in a sentence
+'''
+sentence = input("Enter a sentence: ")
+
+words = sentence.split()
+count = len(words)
+
+print("Number of words:", count)
+
+
+#Swap the values of two variables
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+a, b = b, a
+
+print("After swapping:")
+print("a =", a)
+print("b =", b)
+'''
