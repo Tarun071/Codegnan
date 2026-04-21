@@ -37,9 +37,10 @@ super()
 
 '''
 
-
+# ____________________________________________ 
 '''
 #Single inheritence
+__________________________________________
 class parent:
     def display(self):
         print("This is parent method")
@@ -50,9 +51,10 @@ class child(parent):
 obj=child()
 obj.display()
 '''
-
+# ____________________________________________________
 '''
 #Multiple inheritence
+__________________________________________________
 class Father:
     def skill_1(self):
         print("Gymrat")
@@ -71,22 +73,58 @@ Obj.skill_3()
 
 '''
 
+# class Father:
+#     def show(self):
+#         print("This is Father class")
 
+# class Mother:
+#     def show1(self):
+#         print("This is Mother class")
 
+# class Child(Father, Mother):
+#     def display(self):
+#         print("This is Child class:")
+#         super().show1()
 
+# c = Child()
+# c.display()
 
-class Father:
-    def show(self):
-        print("This is Father class")
+# _______________________________________________________________________
+#Multilevel inheritance
+'''
+--> This occurs whaen a class inherits 
+'''
+# _____________________________________________________________________
+# class grandparent:
+#     def showgp(self):
+#         print("Iam grandParent")
+# class parent(grandparent):
+#     def showp(self):
+#         print("Iam parent")
+# class child(grandparent):
+#     def showc(self):
+#         print("Iam child")
 
-class Mother:
-    def show1(self):
-        print("This is Mother class")
+# c1=child()
+# c1.showp()
 
-class Child(Father, Mother):
-    def display(self):
-        print("This is Child class:")
-        super().show1()
+#___________________________________________________________________
+#Hierarchy
+#___________________________________________________________________
 
-c = Child()
-c.display()
+class parent:
+    def par(self):
+        print("IAM PARENT")
+class child1(parent):
+    def c1(self):
+        print("Print child 1")
+class child2(parent):
+    def c2(self):
+        print("iam child 2")
+class child3(child1,child2):
+    def c3(self):
+        print("Iam child 3")
+ob=child3()
+ob1=parent()
+ob1.par()
+ob.par()

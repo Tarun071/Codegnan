@@ -105,7 +105,7 @@ CI = A - P
 print("Final Amount =", A)
 print("Compound Interest =", CI)
 
-'''
+
 a=[1,2,-2,-3,1,-4]
 s=0
 for i in range(0,len(a)):
@@ -116,7 +116,7 @@ print(a)
 
 
 #Convert number of days into years, weeks, and days
-'''
+
 
 days = int(input("Enter number of days: "))
 
@@ -167,3 +167,11 @@ print("After swapping:")
 print("a =", a)
 print("b =", b)
 '''
+
+#sum and average in of list
+n=[1,4,2,5,5]
+sum=0
+for i in n:
+    sum+=i
+print(sum)
+print(sum//len(n))
