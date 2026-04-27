@@ -175,3 +175,50 @@ for i in n:
     sum+=i
 print(sum)
 print(sum//len(n))
+
+
+
+
+#######################################################################################
+# n=4
+# for i in range(n):
+#     for j in range(i+1):
+#         print(j,end=" ")
+#     print()
+
+
+# r=int(input())
+# c=int(input())
+# m=[[3, 4], [5, 6]]
+# for i in range(r):   
+#     temp=[]
+#     for j in range(c):
+#         n=int(input())
+#         temp.append(n)
+#     m.append(temp)
+# print(m)
+# d=0
+# res=[]
+# for k in range(r):
+#     d=0
+#     for l in range(c):
+#         d=d+m[k][l]
+#     res.append(d)
+# print(res)
+
+
+
+# rows = 3
+# cols = 3
+
+# matrix = []
+
+# for i in range(rows):
+#     row = list(map(int, input().split()))
+#     matrix.append(row)
+
+# print(matrix)
+
+
+
+

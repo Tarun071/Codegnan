@@ -4,31 +4,31 @@
 --> except :if try fails to execute and gives an error the except block will be excecutes 
 -->finally: default block executes in default
 '''
-# try:
-#     print(b)
-# except:
-#     print("erro occured")
-# else:
-#     print("hi rambabu")
-# #___________________________________________________
-# try:
-#     b=1
-#     print(b)
-# except:
-#     print("Error")
-# else:
-#     print("Code successfull")
-# finally:
-#     print("default message")
-# #_____________________________________________________
+try:
+    print(b)
+except:
+    print("erro occured")
+else:
+    print("hi rambabu")
+#___________________________________________________
+try:
+    b=1
+    print(b)
+except:
+    print("Error")
+else:
+    print("Code successfull")
+finally:
+    print("default message")
+#_____________________________________________________
 
-# try:
-#     b=[1,3,4,4]
-#     print(b[23])
-# except IndexError:
-#     print("Error")
+try:
+    b=[1,3,4,4]
+    print(b[23])
+except IndexError:
+    print("Error")
 
-#
+
 try:
     a=int(input())
     b=int(input())
